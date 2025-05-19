@@ -1,16 +1,199 @@
 {
-  "applinks": {
-    "apps":[],
-    "details": [
-      {
-        "appID": "75P9B6J9MN.com.tui.tda.uk-th.dev",
-        "components": [
-          {
-            "/": "/*",
-            "comment": "Matches any URL"
-          }
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "SEMXTC8MV2.de.tui.meinetui",
+                "components": [
+                    {
+                        "/": "/",
+                        "?": {
+                            "regToken": "?*"
+                        },
+                        "exclude": true,
+                        "comment": "Exclude links with regToken in query string"
+                    },
+                    {
+                        "/": "/",
+                        "?": {
+                            "pwreset": "?*"
+                        },
+                        "exclude": true,
+                        "comment": "Matches with the top level domain but exclude if query pwreset is present"
+                    },
+                    {
+                        "/": "/",
+                        "?": {
+                            "webexit": "1"
+                        },
+                        "exclude": true,
+                        "comment": "Exclude if query webexit with value 1 is present"
+                    },
+                    {
+                        "/": "/catalog",
+                        "exclude": true,
+                        "comment": "Exclude /catalog links"
+                    },
+                    {
+                        "/": "/agencysearch",
+                        "exclude": true,
+                        "comment": "Exclude /agencysearch links"
+                    },
+                    {
+                        "/": "/registration",
+                        "exclude": true,
+                        "comment": "Exclude /registration links"
+                    },
+                    {
+                        "/": "/register-invite",
+                        "exclude": true,
+                        "comment": "Exclude /register-invite links"
+                    },
+                    {
+                        "/": "/reset-password",
+                        "exclude": true,
+                        "comment": "Exclude /reset-password links"
+                    },
+                    {
+                        "/": "/inspiration",
+                        "exclude": true,
+                        "comment": "Exclude /insiration links"
+                    },
+                    {
+                        "/": "/tuicard",
+                        "exclude": true,
+                        "comment": "Exclude /tuicard links"
+                    },
+                    {
+                        "/": "/login",
+                        "comment": "Login"
+                    },
+                    {
+                        "/": "/documents-wo-login",
+                        "comment": "Documents and Login"
+                    },
+                    {
+                        "/": "/app",
+                        "comment": "App open"
+                    },
+                    {
+                        "/": "/inspiration",
+                        "comment": "Inspiration"
+                    },
+                    {
+                        "/": "/reservation-documents",
+                        "comment": "Reservation Documents"
+                    },
+                    {
+                        "/": "/login-registration",
+                        "comment": "Login & Registration"
+                    },
+                    {
+                        "/": "/",
+                        "comment": "Matches with the top level domain"
+                    },
+                    {
+                        "/": "/*",
+                        "comment": "Opens every link to the website"
+                    }
+                ]
+            },
+            {
+                "appID": "75P9B6J9MN.com.tui.tda.de-mt.dev",
+                "components": [
+                    {
+                        "/": "/",
+                        "?": {
+                            "regToken": "?*"
+                        },
+                        "exclude": true,
+                        "comment": "Exclude links with regToken in query string"
+                    },
+                    {
+                        "/": "/",
+                        "?": {
+                            "pwreset": "?*"
+                        },
+                        "exclude": true,
+                        "comment": "Matches with the top level domain but exclude if query pwreset is present"
+                    },
+                    {
+                        "/": "/",
+                        "?": {
+                            "webexit": "1"
+                        },
+                        "exclude": true,
+                        "comment": "Exclude if query webexit with value 1 is present"
+                    },
+                    {
+                        "/": "/catalog",
+                        "exclude": true,
+                        "comment": "Exclude /catalog links"
+                    },
+                    {
+                        "/": "/agencysearch",
+                        "exclude": true,
+                        "comment": "Exclude /agencysearch links"
+                    },
+                    {
+                        "/": "/registration",
+                        "exclude": true,
+                        "comment": "Exclude /registration links"
+                    },
+                    {
+                        "/": "/register-invite",
+                        "exclude": true,
+                        "comment": "Exclude /register-invite links"
+                    },
+                    {
+                        "/": "/reset-password",
+                        "exclude": true,
+                        "comment": "Exclude /reset-password links"
+                    },
+                    {
+                        "/": "/inspiration",
+                        "exclude": true,
+                        "comment": "Exclude /insiration links"
+                    },
+                    {
+                        "/": "/tuicard",
+                        "exclude": true,
+                        "comment": "Exclude /tuicard links"
+                    },
+                    {
+                        "/": "/login",
+                        "comment": "Login"
+                    },
+                    {
+                        "/": "/documents-wo-login",
+                        "comment": "Documents and Login"
+                    },
+                    {
+                        "/": "/app",
+                        "comment": "App open"
+                    },
+                    {
+                        "/": "/inspiration",
+                        "comment": "Inspiration"
+                    },
+                    {
+                        "/": "/reservation-documents",
+                        "comment": "Reservation Documents"
+                    },
+                    {
+                        "/": "/login-registration",
+                        "comment": "Login & Registration"
+                    },
+                    {
+                        "/": "/",
+                        "comment": "Matches with the top level domain"
+                    },
+                    {
+                        "/": "/*",
+                        "comment": "Opens every link to the website"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    }
 }
